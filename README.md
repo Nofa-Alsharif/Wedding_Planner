@@ -49,4 +49,3 @@ tree
 │       ├── *.java            # Classes for different wedding aspects (User, Menu, Date, etc.)
 └── test                       # Tests (if any)
 ```
-```
