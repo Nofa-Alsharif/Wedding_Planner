@@ -1,5 +1,3 @@
-
-```markdown
 # 🎉 Wedding Planning Application 💍
 
 ## Project Overview
@@ -50,4 +48,5 @@ tree
 │   └── weddingplanner        # Core application logic classes
 │       ├── *.java            # Classes for different wedding aspects (User, Menu, Date, etc.)
 └── test                       # Tests (if any)
+```
 ```
