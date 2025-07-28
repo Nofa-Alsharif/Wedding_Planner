@@ -34,18 +34,47 @@ This application helps clients plan their wedding step-by-step by entering perso
 ## Project Structure
 ```
 tree
-├── build.xml                  # Build script
-├── manifest.mf                # Manifest file
-├── nbproject                  # NetBeans project config files
+├── build.xml
+├── manifest.mf
+├── nbproject
 │   ├── build-impl.xml
 │   ├── genfiles.properties
 │   ├── project.properties
 │   └── project.xml
-├── README.md                  # Project documentation
-├── src                        # Source code folder
-│   ├── GUI                   # GUI components and forms
-│   │   ├── *.java, *.form    # Java classes and GUI form files
-│   └── weddingplanner        # Core application logic classes
-│       ├── *.java            # Classes for different wedding aspects (User, Menu, Date, etc.)
-└── test                       # Tests (if any)
+├── README.md
+├── src
+│   ├── GUI
+│   │   ├── Adornment.form
+│   │   ├── Adornment.java
+│   │   ├── Appreciate.form
+│   │   ├── Appreciate.java
+│   │   ├── Date.form
+│   │   ├── Date.java
+│   │   ├── Drinks.form
+│   │   ├── Drinks.java
+│   │   ├── Menu.form
+│   │   ├── Menu.java
+│   │   ├── SingIn.form
+│   │   ├── SingIn.java
+│   │   ├── Sweet.form
+│   │   ├── Sweet.java
+│   │   ├── User.form
+│   │   ├── User.java
+│   │   ├── Wedding.form
+│   │   ├── Wedding.java
+│   │   ├── WeddingPlanner.form
+│   │   └── WeddingPlanner.java
+│   └── weddingplanner
+│       ├── Adornment.java
+│       ├── Appreciate.java
+│       ├── Date.java
+│       ├── Details.java
+│       ├── Drinks.java
+│       ├── Menu.java
+│       ├── Planner.java
+│       ├── Sweet.java
+│       ├── Themes.java
+│       ├── User.java
+│       └── Wedding.java
+└── test
 ```
